@@ -3,7 +3,8 @@ import { cva, type VariantProps } from "class-variance-authority";
 
 // keyof representa que pode se usar qlqr chave do IntrinsElements (dinamico <a>, h1, p, etc)
 
-const textVariants = cva(["font-sans", "text-gray-400"], {
+// eslint-disable-next-line react-refresh/only-export-components
+export const textVariants = cva(["font-sans", "text-gray-400"], {
   variants: {
     variant: {
       "body-sm-bold": "text-sm leading-5 font-semibold",

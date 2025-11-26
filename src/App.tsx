@@ -10,6 +10,7 @@ import Icon from "./components/icon";
 import Badge from "./components/badge";
 import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
+import InputText from "./components/input-text";
 
 export default function App() {
   return (
@@ -46,6 +47,10 @@ export default function App() {
         <ButtonIcon icon={TrashIcon} />
         <ButtonIcon variant="secondary" icon={TrashIcon} />
         <ButtonIcon variant={"tertiary"} icon={TrashIcon} />
+      </div>
+
+      <div>
+        <InputText />
       </div>
     </div>
   );
